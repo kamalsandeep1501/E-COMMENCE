@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="C:\Users\gowtham\Desktop\programming\project1\addchart\page.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shopping Cart</h1>
+        <div class="item-selection">
+            <div class="image-container">
+                <img id="itemImage" src="C:\Users\gowtham\Desktop\programming\project1\Ductless-Split-System-Air-Conditioners.webp" alt="Item Image" >
+            </div>
+            <div class="details-container">
+                <label for="item">Select Item:</label>
+                <select id="item">
+                    <option value="Item 1" data-image="path/to/image1.jpg">Item 1</option>
+                    <option value="Item 2" data-image="path/to/image2.jpg">Item 2</option>
+                    <option value="Item 3" data-image="path/to/image3.jpg">Item 3</option>
+                </select>
+
+                <label for="size">Select Size:</label>
+                <select id="size">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" min="1" value="1">
+
+                <button id="addBtn">Add to Cart</button>
+            </div>
+        </div>
+
+        <h2>Your Cart</h2>
+        <div id="cart"></div>
+
+        <button id="orderBtn">Order Now</button>
+    </div>
+
+    <script src="C:\Users\gowtham\Desktop\programming\project1\addchart\page.js"></script>
+</body>
+</html>
